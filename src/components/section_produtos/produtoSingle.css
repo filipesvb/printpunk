@@ -1,0 +1,8 @@
+.imagem {
+  border: solid 0px var(--border);
+}
+
+.imagem:hover {
+  transition: 0.2s linear all;
+  border: solid 4px var(--border);
+}

@@ -3,6 +3,7 @@
 import "./test.css";
 import HeroImage from "../assets/hero_right_image.png";
 import Image from "next/image";
+import Separator from "../assets/separator.png";
 
 export default function Hero() {
   return (
@@ -64,6 +65,9 @@ export default function Hero() {
           </div>
         </div>
       </section>
+      <div className="w-full flex justify-center py-15 pointer-events-none select-none">
+        <Image src={Separator} alt="Separator icon" aria-hidden="true" />
+      </div>
     </>
   );
 }
