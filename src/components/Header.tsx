@@ -67,28 +67,40 @@ export default function Header() {
           <nav>
             <ul className="flex gap-12 ">
               <li className="flex gap-4 items-center justify-between min-w-[100px]">
-                <span>Todos os produtos</span>
-                <Image src={Arrow} alt="" className="max-w-[10px]" />
+                <a href="#" className="flex gap-5">
+                  <span>Todos os produtos</span>
+                  <Image src={Arrow} alt="" className="max-w-[10px]" />
+                </a>
               </li>
               <li className="flex gap-4 items-center justify-between min-w-[100px]">
-                <span>Personalização</span>
-                <Image src={Arrow} alt="" className="max-w-[10px]" />
+                <a href="#" className="flex gap-5">
+                  <span>Personalização</span>
+                  <Image src={Arrow} alt="" className="max-w-[10px]" />
+                </a>
               </li>
               <li className="flex gap-4 items-center justify-between min-w-[100px]">
-                <span>Lançamentos</span>
-                <Image src={Arrow} alt="" className="max-w-[10px]" />
+                <a href="#" className="flex gap-5">
+                  <span>Lançamentos</span>
+                  <Image src={Arrow} alt="" className="max-w-[10px]" />
+                </a>
               </li>
               <li className="flex gap-4 items-center justify-between min-w-[100px]">
-                <span>Camisetas</span>
-                <Image src={Arrow} alt="" className="max-w-[10px]" />
+                <a href="#" className="flex gap-5">
+                  <span>Camisetas</span>
+                  <Image src={Arrow} alt="" className="max-w-[10px]" />
+                </a>
               </li>
               <li className="flex gap-4 items-center justify-between min-w-[100px]">
-                <span>Canecas</span>
-                <Image src={Arrow} alt="" className="max-w-[10px]" />
+                <a href="#" className="flex gap-5">
+                  <span>Canecas</span>
+                  <Image src={Arrow} alt="" className="max-w-[10px]" />
+                </a>
               </li>
               <li className="flex gap-4 items-center justify-between min-w-[100px]">
-                <span>Acessórios</span>
-                <Image src={Arrow} alt="" className="max-w-[10px]" />
+                <a href="#" className="flex gap-5">
+                  <span>Acessórios</span>
+                  <Image src={Arrow} alt="" className="max-w-[10px]" />
+                </a>
               </li>
             </ul>
           </nav>

@@ -30,7 +30,7 @@ export default function Hero() {
                   </span>
                 </h3>
               </div>
-              <button className="text-2xl bg-[#FF5858] text-white py-3 px-2 rounded-[6px]">
+              <button className="text-2xl bg-[#FF5858] text-white py-3 px-2 rounded-[6px] cursor-pointer hover:brightness-95">
                 Ver catálogo de produtos
               </button>
             </div>
@@ -40,7 +40,7 @@ export default function Hero() {
               <Image src={HeroImage} alt="" />
             </div>
 
-            <div className="bg-red-900 w-[500px] h-[40px] rotate-[-50deg] absolute right-[-120px] bottom-30 z-50 shadow-2xl">
+            <div className="bg-red-900 w-[500px] h-[40px] rotate-[-50deg] absolute right-[-120px] bottom-30 z-49 shadow-2xl">
               <div className="faixa  flex items-center relative bg-white h-full w-[200%] justify-start">
                 <ul className="float-left w-1/2 flex gap-4">
                   <li>Camisetas</li>
